@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="Prueba 1" TYPE="7" VERSION="1" ID="6.0">
+<VJCC NAME="5 Llantita" TYPE="7" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog MAIN="VJC6.0" ROTX="6389" SCENEHEIGHT="9000" SCENEWIDTH="14400" SUBCOUNT="9">
@@ -16,37 +16,6 @@
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="1"/>
             </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="11"/>
-                <POS Y="4367" X="6389"/>
-                <VAL>
-                    <NAME ID="Uno"/>
-                    <INDEX ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="11"/>
-                    <POS Y="4453" X="6389"/>
-                    <VAL>
-                        <NAME ID="Llantita"/>
-                        <INDEX ID="5"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="12"/>
-                        <POS Y="4540" X="6389"/>
-                        <VAL>
-                            <DELAY ID="1"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="11"/>
-                            <POS Y="4627" X="6389"/>
-                            <VAL>
-                                <NAME ID="RUno"/>
-                                <INDEX ID="8"/>
-                            </VAL>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
         </Catalog>
         <SUBPROGRAM Y="4378" NAME="Uno" TYPE="1" X="6894" ID="1">
             <BLOCK ID="25"/>
@@ -250,7 +219,7 @@
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
-                <MOTORPARAMETER ID="0,0,-20;132,1420,-50;132,1420,-50;0,0,-20"/>
+                <MOTORPARAMETER ID="0,0,-20;132,1450,-50;132,1450,-50;0,0,-20"/>
                 <CURRENTPORT ID="2"/>
             </VAL>
         </SUBPROGRAM>
@@ -272,8 +241,8 @@
                     <BLOCK ID="25"/>
                     <POS Y="4453" X="6389"/>
                     <VAL>
-                        <MOTORPARAMETER ID="0,0,-20;136,5,50;136,5,50;0,0,-20"/>
-                        <CURRENTPORT ID="0"/>
+                        <MOTORPARAMETER ID="0,0,-20;136,5,80;136,5,80;0,0,-20"/>
+                        <CURRENTPORT ID="1"/>
                     </VAL>
                 </CHILD>
             </CHILD>
@@ -313,8 +282,8 @@
                 <BLOCK ID="25"/>
                 <POS Y="4366" X="6389"/>
                 <VAL>
-                    <MOTORPARAMETER ID="0,0,-20;132,400,50;132,400,-50;0,0,-20"/>
-                    <CURRENTPORT ID="0"/>
+                    <MOTORPARAMETER ID="0,0,-20;132,360,50;132,360,-50;0,0,-20"/>
+                    <CURRENTPORT ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
@@ -344,7 +313,32 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0">
+            <Block>
+                <BLOCK ID="11"/>
+                <POS Y="4448" X="6375"/>
+                <VAL>
+                    <NAME ID="Llantita"/>
+                    <INDEX ID="5"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="12"/>
+                    <POS Y="4534" X="6375"/>
+                    <VAL>
+                        <DELAY ID="1"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="21"/>
+                        <POS Y="4621" X="6375"/>
+                        <VAL>
+                            <SOUNDTYPE ID="9"/>
+                            <SOUNDINDEX ID="0"/>
+                            <PLAYMODEL ID="0"/>
+                        </VAL>
+                    </CHILD>
+                </CHILD>
+            </Block>
+        </Catalog>
     </Catalog>
-    <Catalog SIZE="119"/>
+    <Catalog SIZE="253"/>
 </VJCC>

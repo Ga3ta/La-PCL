@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" NAME="SIM7" ID="6.0" TYPE="7">
+<VJCC VERSION="1" ID="6.0" NAME="SIM7" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="6389" SCENEHEIGHT="9000" SCENEWIDTH="14400" SUBCOUNT="15">
+        <Catalog SCENEWIDTH="14400" SCENEHEIGHT="9000" MAIN="VJC6.0" ROTX="6625" SUBCOUNT="15">
             <BLOCK ID="41"/>
-            <POS Y="4280" X="6389"/>
+            <POS Y="4343" X="6625"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="1"/>
@@ -18,33 +18,33 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS Y="4367" X="6389"/>
+                <POS Y="4430" X="6625"/>
                 <VAL>
                     <NAME ID="Siete"/>
                     <INDEX ID="6"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="12"/>
-                    <POS Y="4453" X="6389"/>
+                    <POS Y="4516" X="6625"/>
                     <VAL>
                         <DELAY ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="11"/>
-                        <POS Y="4540" X="6389"/>
+                        <POS Y="4603" X="6625"/>
                         <VAL>
                             <NAME ID="SIM"/>
                             <INDEX ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="12"/>
-                            <POS Y="4627" X="6389"/>
+                            <POS Y="4690" X="6625"/>
                             <VAL>
                                 <DELAY ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="11"/>
-                                <POS Y="4713" X="6389"/>
+                                <POS Y="4776" X="6625"/>
                                 <VAL>
                                     <NAME ID="CRSiete 2"/>
                                     <INDEX ID="8"/>
@@ -55,7 +55,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="Llantita" ID="1" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="1" NAME="Llantita" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -110,7 +110,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Regreo 9" ID="2" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="2" NAME="Regreo 9" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -118,7 +118,7 @@
                 <CURRENTPORT ID="0"/>
             </VAL>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SIM" ID="3" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="3" NAME="SIM" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -157,7 +157,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="RSeis2" ID="4" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="4" NAME="RSeis2" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -208,7 +208,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Seis" ID="5" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="5" NAME="Seis" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -283,7 +283,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Siete" ID="6" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="6" NAME="Siete" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -382,7 +382,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Ocho" ID="7" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="7" NAME="Ocho" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -457,7 +457,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="CRSiete 2" ID="8" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="8" NAME="CRSiete 2" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -497,7 +497,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Nueve" ID="9" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="9" NAME="Nueve" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -516,7 +516,7 @@
                 </VAL>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="ROcho 2" ID="10" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="10" NAME="ROcho 2" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -564,7 +564,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SoreterRed" ID="11" Y="4257" X="6625" TYPE="1">
+        <SUBPROGRAM ID="11" NAME="SoreterRed" Y="4257" X="6625" TYPE="1">
             <BLOCK ID="26"/>
             <POS Y="4343" X="6625"/>
             <VAL>
@@ -654,7 +654,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="RSeis" ID="13" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="13" NAME="RSeis" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -705,7 +705,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="CRSiete" ID="14" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="14" NAME="CRSiete" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -753,7 +753,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="ROcho" ID="15" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="15" NAME="ROcho" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="25"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -801,7 +801,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SorterBlue" ID="16" Y="4194" X="6389" TYPE="1">
+        <SUBPROGRAM ID="16" NAME="SorterBlue" Y="4194" X="6389" TYPE="1">
             <BLOCK ID="26"/>
             <POS Y="4280" X="6389"/>
             <VAL>
@@ -918,7 +918,7 @@
         <Catalog BaseBlock="VJC6.0">
             <Block>
                 <BLOCK ID="11"/>
-                <POS Y="4438" X="6827"/>
+                <POS Y="4402" X="6941"/>
                 <VAL>
                     <NAME ID="SoreterRed"/>
                     <INDEX ID="11"/>
@@ -926,5 +926,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="170"/>
+    <Catalog SIZE="109"/>
 </VJCC>

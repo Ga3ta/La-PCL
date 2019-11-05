@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" ID="6.0" VERSION="1" NAME="">
+<VJCC TYPE="7" ID="6.0" NAME="K-librar" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9000" SUBCOUNT="0" SCENEWIDTH="14400" MAIN="VJC6.0" ROTX="6889"/>
+        <Catalog MAIN="VJC6.0" ROTX="6625" SCENEWIDTH="14400" SUBCOUNT="0" SCENEHEIGHT="9000">
+            <BLOCK ID="41"/>
+            <POS Y="4343" X="6625"/>
+            <VAL>
+                <MOTORTYPE ID="0"/>
+                <LEFTMOTORCHANNEL ID="1"/>
+                <LEFTMOTORPOWER ID="1"/>
+                <RIGHTMOTORCHANNEL ID="2"/>
+                <RIGHTMOTORPOWER ID="1"/>
+                <MOTORNUMBER ID="0"/>
+                <MOTORCHANNELMAP ID="1:1;2:0;3:3;4:4;5:5;6:0;7:7"/>
+                <MOTORPLACETYPE ID="0"/>
+                <MOTORTHRESHOLD ID="1"/>
+            </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="42"/>
+                <POS Y="4430" X="6625"/>
+                <VAL>
+                    <MODETYPE ID="0"/>
+                </VAL>
+            </CHILD>
+        </Catalog>
     </Catalog>
     <Catalog GLOBALMTN="VJC6.0"/>
     <Catalog GLOABLETIP="VJC6.0">
@@ -14,5 +35,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="41"/>
+    <Catalog SIZE="132"/>
 </VJCC>

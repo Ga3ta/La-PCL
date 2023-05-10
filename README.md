@@ -1,2 +1,2 @@
 # La-PCL
-Repositorio de los Prietos Chinos con Lentes, para WER, puede contener C
+Repositorio de LamBot X, para WER, puede contener C
